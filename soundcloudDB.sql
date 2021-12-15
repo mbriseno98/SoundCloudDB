@@ -227,7 +227,7 @@ VALUES ("Exporting", 1, "Cloud Rap","Bones", "Unrendered");
 
 
 
-use soundcloudDB;
+
 
 INSERT INTO songs(name, album, genre, artist, album_title)
 VALUES ("Crybaby", 4, "Emo Rap","Lil Peep", "Crybaby");
