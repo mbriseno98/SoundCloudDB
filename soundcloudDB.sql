@@ -167,7 +167,7 @@ VALUES ( "GoodBye & Good Riddance",7, "Juice WRLD", "40:13","5/23/18", "Emo Rap"
 INSERT INTO albums(name, artist, artist_name, length, Release_Date, Genre)
 VALUES ( "?",8, "XXXTentacion", "37:27","3/16/18", "Emo Rap");
 
-
+ ALTER TABLE songs ADD artist VARCHAR(25);
 
 UPDATE songs SET artist =  "King Von",  album_title="Welcome to O Block", genre = "Trap" WHERE album = 2;
 
